@@ -1,0 +1,158 @@
+
+body {
+    background-color: black;
+    color: white
+}
+.header {
+    /* border: 1px solid #E4B564; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 36px 210px 0px;
+   
+}
+.logo {
+   margin-right: 1038px;
+   margin-bottom: 128px;
+}
+.button {
+    border: 1px solid #E4B564;
+    display: flex;
+    align-items: center;
+    color: #E4B564;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 120px
+}
+.tel-img {
+    padding-right: 10px;
+}
+
+.network-headline {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 28px;
+}
+.description-network {
+    width: 1000px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 20px 0 40px;
+}
+.heating-network-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Excavation, .Underground-piping, .Channel {
+width: 468px;
+height: 468px;
+display: flex;
+}
+.fixed-supports, .concrete-wells {
+    width: 715px;
+    height: 468px;
+    display: flex;
+    margin-top: 28px;
+}
+.Excavation {
+background-color: #634F2C;
+}
+.Underground-piping {
+    background-color: #B4A385;
+    margin: 0 30px;
+}
+.Channel {
+    background-color: #E4B564;
+}
+.fixed-supports {
+    background-color:  #635A4A;
+}
+.concrete-wells {
+    background-color: #B08C4D;
+    margin-left: 34px;
+}
+.network-box-text {
+margin: auto;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+}
+
+
+.main {
+    margin: 162px 210px 0;
+}
+.construction-machinery {
+    border: 1px solid #E4B564;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
+.construction-machinery-headline {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 28px;
+    margin-bottom: 94px;
+}
+.Sludge-machine {
+    background-color: #0E0E0E ;
+    width: 468px;
+    height: 312px;
+    margin-bottom: 24px;
+}
+.Loader {
+    background-color: #1F1F1F;
+    width: 468px;
+    height: 560px;
+}
+.washing-machine {
+    background-color: #242424;
+    width: 468px;
+    height: 438px;
+    margin: 0 30px 50px;
+}
+.Excavator {
+    background-color: #E4B564;
+    width: 468px;
+    height: 404px;
+    margin: 0 30px;
+    color: #0A0909;
+}
+.Backhoe-loader {
+    background-color: #1F1F1F;
+    width: 468px;
+    height: 254px
+}
+.KAMAZ {
+    background-color: #0E0E0E;
+    width: 468px;
+    height: 312px;
+    margin: 26px 0 26px;
+}
+.Rink {
+    background-color: #0A0909;
+    width: 468px;
+    height: 276px
+}
+.construction-machinery-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 50px;
+    margin-left: 52px;
+}
+.Sludge-machine .construction-machinery-text {
+    width:220px ;
+}
+.washing-machine .construction-machinery-text {
+    width: 300px;
+}
