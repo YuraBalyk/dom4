@@ -1,10 +1,9 @@
 
 body {
-    background-color: black;
+    background-color: rgb(27, 25, 25);
     color: white
 }
 .header {
-    /* border: 1px solid #E4B564; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -15,7 +14,7 @@ body {
    margin-right: 1038px;
    margin-bottom: 128px;
 }
-.button {
+.header-button {
     border: 1px solid #E4B564;
     display: flex;
     align-items: center;
@@ -85,10 +84,10 @@ text-align: center;
 
 
 .main {
-    margin: 162px 210px 0;
+    margin: 162px 210px 200px;
 }
 .construction-machinery {
-    border: 1px solid #E4B564;
+    /* border: 1px solid #E4B564; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -155,4 +154,81 @@ text-align: center;
 }
 .washing-machine .construction-machinery-text {
     width: 300px;
+}
+
+.footer {
+    background-color: #0E0E0E;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 170px 210px;
+    margin: 0;
+}
+.footer-button {
+    border: 1px solid #E4B564;
+    color: #E4B564;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.footer-headline {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 28px;
+    margin-right: 712px;
+}
+.footer-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.EID, .MAVIS, .ARSENAL-light, .ARSENAL-dark, .SETLGROUP {
+    width: 486px;
+    height: 392px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.EID {
+    background-color: #634F2C;
+    padding: 170px 150px;
+}
+.MAVIS {
+    background-color: rgba(232, 210, 171, 0.76);
+    padding: 120px 80px;
+    position: relative;
+}
+.mavis-logo {
+    position: absolute;
+    top: 60px;
+    left: 216px;
+}
+.mavis-img {
+    margin-bottom: 16px;
+}
+
+.ARSENAL-light {
+    background-color: #E4B564;
+     padding: 174px 148px;
+}
+.ARSENAL-dark {
+    background-color:#635A4A;
+     padding: 174px 148px;
+}
+.SETLGROUP {
+    background-color: #B08C4D;
+    padding: 170px 150px;
+    position: relative;
+}
+.setlgroup-logo {
+    position: absolute;
+    top: 170px;
+    left: 184px;
+}
+.SetlGroup-text {
+    position: absolute;
+    top: 148px;
+    left: 192px;
+    font-size: 28px;
+    font-weight: bold;
 }
